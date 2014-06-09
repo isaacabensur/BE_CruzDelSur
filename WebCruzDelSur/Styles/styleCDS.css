@@ -1,0 +1,91 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 14px;
+    background: #005597 url("Images/fondo.png") center repeat;
+    color:white;                
+}
+
+.divFila {
+            width:800px;
+            position:relative;
+            float:left;
+            height:30px;
+        }
+        .divColumna {
+            width:400px;            
+            float:left;
+        }
+        .divTexto {
+            width:200px;
+            float:left;
+        }
+        .divControl {
+            width:200px;
+            float:left;
+        }
+        .divFiltro {
+            margin-top:30px;
+            height: 100px;
+        }
+        .divResultado {
+            margin-top:30px;
+        }
+        .divTitulo {
+            margin-bottom:20px;
+            font-size:16px;
+            font-weight:bold;
+        }
+        .divEspacio {
+            margin-bottom:20px;
+        }
+
+        a.linkMenuStyle:visited, a.linkMenuStyle:link, a.linkMenuStyle:hover, a.linkMenuStyle:active {
+            font-weight:bold;
+            color:white;            
+        }                
+
+        .MenuStyle {
+            font-weight:bold;
+            font-size:16px;
+            background-color:#4698cf;
+            width:150px;
+            padding:10px 10px 10px 10px;
+            color: #fcdb16;
+        }
+
+        #divPie {
+            text-align:center;
+            padding-top:10px;
+            padding-left:5%;
+            padding-right:5%;
+        }
+
+        #divCabecera {
+            margin-left:30px;
+            margin-top:30px;
+            margin-bottom:30px;
+            background: #004C8B url('Images/cabecera.jpg') no-repeat;
+        }
+
+        #divMenu {
+            padding-left:5%;
+            padding-right:5%;
+            padding-top:30px;
+            padding-bottom:30px;
+            margin-left:30px;
+            width:80%;
+            border: 2px solid gray;
+        }
+
+        #divContenido {
+            padding-left:5%;
+            padding-right:5%;
+            padding-top:30px;
+            padding-bottom:30px;
+            margin-left:30px;
+            margin-top:10px;
+            width:80%;
+            border: 2px solid gray;
+        }
