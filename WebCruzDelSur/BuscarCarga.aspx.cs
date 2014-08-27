@@ -12,7 +12,7 @@ namespace WebCruzDelSur
     public partial class BuscarCarga : System.Web.UI.Page
     {
         IBR_Carga carga = new BR_Carga();
-        IBR_Estado estado = new BR_Estado();
+        IBR_Estado estado =  new BR_Estado();
             
         protected void Page_Load(object sender, EventArgs e)
         {            
@@ -22,6 +22,7 @@ namespace WebCruzDelSur
                 ddlEstado.DataValueField = "Codigo";
                 ddlEstado.DataTextField = "Nombre";
                 ddlEstado.DataBind();
+
             }
         }
 
